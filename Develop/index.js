@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const inquirer = require('inquirer');
-const util = require('util')
+const utils = require('utils')
 const generateMarkdown = require('./utils/generateMarkdown')
 
 
@@ -24,51 +24,100 @@ const questions = [
         {
             type: 'input',
             name: 'description',
-            message: 'Please enter a description of your project'
+            message: 'Please enter a description of your project',
+            validate: (answer) => {
+                if(answer === '') {
+                    return 'Please enter a description of your project'
+                } else {
+                    return true
+                }
+            }
         },
 
         {
             type: 'input',
             name: 'installation',
-            message: 'If applicable, please enter in a description on necessary installation steps for your application'
+            message: 'If applicable, please enter in a description on necessary installation steps for your application',
+            validate: (answer) => {
+                if(answer === '') {
+                    return 'Please enter installation steps for your project'
+                } else {
+                    return true
+                }
+            }
 
         },
 
         {
             type: 'input',
             name: 'usage',
-            message: 'Provide any instructions and examples for usage'
+            message: 'Provide any instructions and examples for usage for your project',
+            validate: (answer) => {
+                if(answer === '') {
+                    return 'Provide any instructions and examples for usage for your project'
+                } else {
+                    return true
+                }
+            }
         },
 
         {
             type: 'input',
             name: 'contributions',
-            message: 'If applicable, please provide instructions for how other developers can contribute to your project'
+            message: 'If applicable, please provide instructions for how other developers can contribute to your project',
+            validate: (answer) => {
+                if(answer === '') {
+                    return 'Please provide any instructions for how other developers can contribute to your project'
+                } else {
+                    return true
+                }
+            }
         },
 
         {
             type: 'input',
             name: 'tests',
-            message: "If applicable, please provide any necessary instructions/examples on how to test your application"
+            message: "If applicable, please provide any necessary instructions/examples on how to test your application",
+            validate: (answer) => {
+                if(answer === '') {
+                    return 'Please enter a description of your project'
+                } else {
+                    return true
+                }
+            }
         },
 
         {
             type: 'input',
             name: 'github',
-            message: 'Please enter your GitHub username'
+            message: 'Please enter your GitHub username',
+            validate: (answer) => {
+                if(answer === '') {
+                    return 'Please enter a description of your project'
+                } else {
+                    return true
+                }
+            }
         },
 
         {
             type: 'input',
             name: 'email',
-            message: 'Please enter your email address'
+            message: 'Please enter your email address',
+            validate: (answer) => {
+                if(answer === '') {
+                    return 'Please enter a description of your project'
+                } else {
+                    return true
+                }
+            }
         },
 
         {
             type: 'list',
             name: 'license',
             message: 'Please select a license for your project',
-            choices: ['ISC License', 'MIT License', 'Eclipse', 'Apache 2.0 License', 'Boost']
+            choices: ['ISC License', 'MIT License', 'Eclipse', 'Apache 2.0 License', 'Boost', 'N/A']
         }
 
     
