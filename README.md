@@ -53,7 +53,7 @@ Once the packages are installed and your environment is set up to run, you can g
 ---
 ## Demonstration
 
-Project Demo: [Watch Me](readme-generator-demo.webm)
+Walkthrough Demo: [Click Here to View](https://drive.google.com/file/d/1Ch6rUWnq6C77Bjy9MJp5_JIRvP45Y3UL/view?usp=sharing)
 
 ---
 ## Credits
