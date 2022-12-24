@@ -23,7 +23,17 @@ You can quickly and easily generate a README file by using a command-line applic
 
 ## Installation
 
-### Before using this 
+To properly test out this project, please make sure you have the following programs installed in your local environment:
+
+  - Node.js 
+    - https://nodejs.org/en/download/
+  - VS Code
+    - https://code.visualstudio.com/
+  - Git
+    - https://git-scm.com/downloads
+
+
+
 
 ---
 ## Usage
