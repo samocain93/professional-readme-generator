@@ -1,14 +1,11 @@
 # Professional README Generator
 
 ## Description
----
 
 
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. This is often the first thing that other developers, users and potential employers will see when visiting your GitHub or viewing a project, so it's important that you provide a clear and concise description of what it is you're making and how to use it.
 
 You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
-
----
 
 ## Table of Contents
 
@@ -18,8 +15,6 @@ You can quickly and easily generate a README file by using a command-line applic
 - [Credits](#credits)
 - [Questions](#questions)
 
-
----
 
 ## Installation
 
@@ -38,8 +33,6 @@ To set up and test this project in your local environment, you can follow the st
   3. With Node installed, in your terminal commands, use "npm init" to initialize Node Package Manager
   4. To set up Inquirer, (which will be used to answer the questions in your CLI), use the command "npm install inquirer@8.2.4". You should see this inquirer version listed in your dependencies in your "package.json" file
 
-
----
 ## Usage
 
 Once the packages are installed and your environment is set up to run, you can get started with the README.md generator!
@@ -50,19 +43,15 @@ Once the packages are installed and your environment is set up to run, you can g
   4. To exit out of the prompts at any time, you can type "control + C". You can also clear out your terminal to start fresh by typing "clear" followed by pressing "enter" in your terminal commands
   5. For any further instruction or tips on how to construct a professional README page, please visit: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
----
 ## Demonstration
 
-Walkthrough Demo: [Click Here to View](https://drive.google.com/file/d/1Ch6rUWnq6C77Bjy9MJp5_JIRvP45Y3UL/view?usp=sharing)
+Walkthrough Demo: [Click Here to View](https://drive.google.com/file/d/1Ch6rUWnq6C77Bjy9MJp5_JIRvP45Y3UL/view?usp=share_link)
 
----
 ## Credits
 
 - Created by: Sam O'Cain
 - GitHub: https://github.com/samocain93
 
-
----
 ## Questions
 
 Questions on this project? Contact me here:
