@@ -37,10 +37,10 @@ To set up and test this project in your local environment, you can follow the st
 
 Once the packages are installed and your environment is set up to run, you can get started with the README.md generator!
 
-  1. The primary test command file is the index.js file. To begin, right click on this file and press "Open in Integrated Terminal"
-  2. In the command line, type "node index.js" or "node index" (both commands will work in Node)
-  3. From here, you will be prompted through the list of questions that will then populate in the README.md file once you are finished
-  4. To exit out of the prompts at any time, you can type "control + C". You can also clear out your terminal to start fresh by typing "clear" followed by pressing "enter" in your terminal commands
+  1. The primary test command file is the `index.js` file. To begin, right click on this file and press `"Open in Integrated Terminal"`
+  2. In the command line, type `node index.js` or `node index` (both commands will work in Node)
+  3. From here, you will be prompted through the list of questions that will then populate in the `README.md` file once you are finished
+  4. To exit out of the prompts at any time, you can type `control + C`. You can also clear out your terminal to start fresh by typing `clear` followed by pressing `enter` in your terminal commands
   5. For any further instruction or tips on how to construct a professional README page, please visit: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## Demonstration
